@@ -1,4 +1,4 @@
-package com.antonk.dimensionstatus.api;
+package com.antonk.dimensiontracker.api;
 
 public enum Dimension {
     OVERWORLD,

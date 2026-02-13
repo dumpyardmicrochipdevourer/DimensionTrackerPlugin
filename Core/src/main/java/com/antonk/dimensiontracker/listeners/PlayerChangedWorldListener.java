@@ -1,6 +1,6 @@
-package com.antonk.dimensionStatus.listeners;
+package com.antonk.dimensiontracker.listeners;
 
-import com.antonk.dimensionStatus.managers.PlayerStateManager;
+import com.antonk.dimensiontracker.managers.PlayerStateManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

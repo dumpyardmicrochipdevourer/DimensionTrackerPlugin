@@ -1,7 +1,7 @@
-package com.antonk.dimensionStatus.managers;
+package com.antonk.dimensiontracker.managers;
 
-import com.antonk.dimensionStatus.scoreboard.ScoreboardService;
-import com.antonk.dimensionStatus.scoreboard.teams.DimensionTeam;
+import com.antonk.dimensiontracker.scoreboard.ScoreboardService;
+import com.antonk.dimensiontracker.scoreboard.teams.DimensionTeam;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.entity.Player;

@@ -1,7 +1,7 @@
-package com.antonk.dimensionStatus.api.util;
+package com.antonk.dimensiontracker.api.util;
 
-import com.antonk.dimensionStatus.scoreboard.teams.DimensionTeam;
-import com.antonk.dimensionstatus.api.Dimension;
+import com.antonk.dimensiontracker.scoreboard.teams.DimensionTeam;
+import com.antonk.dimensiontracker.api.Dimension;
 
 public class DimensionMapper {
     public static Dimension toApi(DimensionTeam internal) {

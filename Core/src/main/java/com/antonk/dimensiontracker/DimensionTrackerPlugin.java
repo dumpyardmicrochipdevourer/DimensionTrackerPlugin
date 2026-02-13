@@ -1,12 +1,12 @@
-package com.antonk.dimensionStatus;
+package com.antonk.dimensiontracker;
 
-import com.antonk.dimensionStatus.api.impl.DimensionTrackerApiImpl;
-import com.antonk.dimensionStatus.commands.CommandManager;
-import com.antonk.dimensionStatus.listeners.PlayerChangedWorldListener;
-import com.antonk.dimensionStatus.listeners.PlayerJoinedListener;
-import com.antonk.dimensionStatus.managers.PlayerStateManager;
-import com.antonk.dimensionStatus.scoreboard.ScoreboardService;
-import com.antonk.dimensionstatus.api.DimensionTrackerApi;
+import com.antonk.dimensiontracker.api.impl.DimensionTrackerApiImpl;
+import com.antonk.dimensiontracker.commands.CommandManager;
+import com.antonk.dimensiontracker.listeners.PlayerChangedWorldListener;
+import com.antonk.dimensiontracker.listeners.PlayerJoinedListener;
+import com.antonk.dimensiontracker.managers.PlayerStateManager;
+import com.antonk.dimensiontracker.scoreboard.ScoreboardService;
+import com.antonk.dimensiontracker.api.DimensionTrackerApi;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class DimensionTrackerPlugin extends JavaPlugin {
@@ -16,7 +16,7 @@ public final class DimensionTrackerPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("DimensionStatus starting...");
+        getLogger().info("DimensionTracker starting...");
 
         ScoreboardService scoreboardService = new ScoreboardService();
         playerManager = new PlayerStateManager(scoreboardService);
@@ -31,7 +31,7 @@ public final class DimensionTrackerPlugin extends JavaPlugin {
 
         new CommandManager(this,playerManager).registerAll();
 
-        getLogger().info("DimensionStatus successfully started!");
+        getLogger().info("DimensionTracker successfully started!");
     }
 
     public static DimensionTrackerApi getAPI() {
@@ -44,6 +44,6 @@ public final class DimensionTrackerPlugin extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("DimensionStatus stopped!");
+        getLogger().info("DimensionTracker stopped!");
     }
 }

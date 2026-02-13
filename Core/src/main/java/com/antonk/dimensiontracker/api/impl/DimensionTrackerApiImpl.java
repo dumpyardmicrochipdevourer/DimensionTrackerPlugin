@@ -1,11 +1,11 @@
-package com.antonk.dimensionStatus.api.impl;
+package com.antonk.dimensiontracker.api.impl;
 
-import com.antonk.dimensionStatus.api.util.DimensionMapper;
-import com.antonk.dimensionStatus.managers.PlayerStateManager;
-import com.antonk.dimensionStatus.scoreboard.ScoreboardService;
-import com.antonk.dimensionStatus.scoreboard.teams.DimensionTeam;
-import com.antonk.dimensionstatus.api.Dimension;
-import com.antonk.dimensionstatus.api.DimensionTrackerApi;
+import com.antonk.dimensiontracker.api.util.DimensionMapper;
+import com.antonk.dimensiontracker.managers.PlayerStateManager;
+import com.antonk.dimensiontracker.scoreboard.ScoreboardService;
+import com.antonk.dimensiontracker.scoreboard.teams.DimensionTeam;
+import com.antonk.dimensiontracker.api.Dimension;
+import com.antonk.dimensiontracker.api.DimensionTrackerApi;
 import org.bukkit.entity.Player;
 
 import java.util.List;

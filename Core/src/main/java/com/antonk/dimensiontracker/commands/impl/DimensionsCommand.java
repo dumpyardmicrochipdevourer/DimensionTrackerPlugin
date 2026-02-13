@@ -1,7 +1,7 @@
-package com.antonk.dimensionStatus.commands.impl;
+package com.antonk.dimensiontracker.commands.impl;
 
-import com.antonk.dimensionStatus.managers.PlayerStateManager;
-import com.antonk.dimensionStatus.scoreboard.teams.DimensionTeam;
+import com.antonk.dimensiontracker.managers.PlayerStateManager;
+import com.antonk.dimensiontracker.scoreboard.teams.DimensionTeam;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.tree.LiteralCommandNode;
 import io.papermc.paper.command.brigadier.CommandSourceStack;

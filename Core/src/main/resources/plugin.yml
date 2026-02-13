@@ -1,4 +1,4 @@
-name: DimensionStatus
+name: DimensionTracker
 version: '1.0-SNAPSHOT'
-main: com.antonk.dimensionStatus.DimensionStatus
+main: com.antonk.dimensiontracker.DimensionTrackerPlugin
 api-version: '1.21'

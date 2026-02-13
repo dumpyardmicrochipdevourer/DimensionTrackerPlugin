@@ -1,4 +1,4 @@
-package com.antonk.dimensionStatus.scoreboard.teams;
+package com.antonk.dimensiontracker.scoreboard.teams;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;

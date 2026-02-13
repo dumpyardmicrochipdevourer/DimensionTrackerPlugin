@@ -1,4 +1,4 @@
-package com.antonk.dimensionstatus.api;
+package com.antonk.dimensiontracker.api;
 
 import org.bukkit.entity.Player;
 

@@ -1,8 +1,8 @@
-package com.antonk.dimensionStatus.commands;
+package com.antonk.dimensiontracker.commands;
 
-import com.antonk.dimensionStatus.DimensionTrackerPlugin;
-import com.antonk.dimensionStatus.commands.impl.DimensionsCommand;
-import com.antonk.dimensionStatus.managers.PlayerStateManager;
+import com.antonk.dimensiontracker.DimensionTrackerPlugin;
+import com.antonk.dimensiontracker.commands.impl.DimensionsCommand;
+import com.antonk.dimensiontracker.managers.PlayerStateManager;
 import io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents;
 
 public class CommandManager {
